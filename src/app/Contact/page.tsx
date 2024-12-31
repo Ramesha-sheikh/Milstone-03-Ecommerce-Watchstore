@@ -25,7 +25,7 @@ const ContactUs = () => {
     <section className="bg-gradient-to-r from-blue-800 to-black text-white py-12 px-6">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-6">Get in Touch with Us</h1>
-        <p className="text-lg mb-8">Please fill out the form below, and we will get back to you as soon as possible.</p>
+        <p className="text-lg mb-8">Complete the form below, and expect a response from us shortly</p>
 
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-white bg-opacity-20 p-8 rounded-lg shadow-xl mb-8">
           <div className="mb-6">

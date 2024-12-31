@@ -8,10 +8,10 @@ export default function VipFooter() {
       <div className="max-w-screen-xl mx-auto px-6">
         <div className="text-center mb-4">
           <h3 className="text-2xl font-semibold mb-2">
-            Join Our VIP Program
+          Become Part of Our VIP Experience
           </h3>
           <p className="text-sm">
-            Get exclusive rewards early access and VIP-only offers.
+          Get Exclusive VIP Rewards, Early Access, and Special Offers.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function VipFooter() {
       </div>
 
       <div className="mt-4 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Your Timeless Treasures All rights reserved.</p>
       </div>
     </footer>
   );

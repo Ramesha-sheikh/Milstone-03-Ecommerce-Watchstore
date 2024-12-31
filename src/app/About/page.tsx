@@ -24,7 +24,7 @@ const AboutUs = () => {
   return (
     <main className="font-sans bg-white text-gray-900">
 
-      <header className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-5 bg-blue-900" style={{ backgroundImage: 'url(about.jpg)' }}>
+      <header className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-5 bg-blue-900" style={{ backgroundImage: 'url(bg.jpeg)' }}>
         <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white">About Us</h1>
         <p className="text-xl md:text-2xl max-w-2xl mx-auto mb-5 text-white">
           Discover the legacy of precision craftsmanship and timeless elegance in every watch we create.
@@ -36,15 +36,19 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="bg-gray-800 p-5 rounded-lg shadow-lg text-center">
             <h3 className="text-xl font-semibold text-blue-300 mb-3">Education</h3>
-            <p className="text-gray-300">O-Level from Karachi Pakistan at the age of 16. Continuously learning through the Governor IT Initiative.</p>
+            <p className="text-gray-300">Bcom university of karachi .</p>
+            <p className="text-gray-300">Govnor sindh initiative  .</p>
+            <p className="text-gray-300">PIAIC.</p>
+            <p className="text-gray-300">Web development</p>
+
           </div>
           <div className="bg-gray-800 p-5 rounded-lg shadow-lg text-center">
             <h3 className="text-xl font-semibold text-blue-300 mb-3">Achievements</h3>
-            <p className="text-gray-300">Recipient of the Governor IT Initiative empowering young talent with technical skills.</p>
+            <p className="text-gray-300">"Proud to be part of the Governor IT Initiative, empowering the next generation with valuable technical skills."</p>
           </div>
           <div className="bg-gray-800 p-5 rounded-lg shadow-lg text-center">
             <h3 className="text-xl font-semibold text-blue-300 mb-3">Personal Info</h3>
-            <p className="text-gray-300">My name is Ahmed. Im passionate about technology programming and creating innovative solutions.</p>
+            <p className="text-gray-300">Ramesha is passionate about technology and innovation, always seeking creative solutions to challenges. With a focus on continuous learning, Ramesha strives to make a positive impact through their work. Dedicated to excellence, Ramesha thrives in environments that encourage growth and collaboration..</p>
           </div>
         </div>
       </section>

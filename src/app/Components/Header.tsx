@@ -1,8 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { FaBars, FaTimes, FaHome, FaStore, FaInfoCircle, FaPhone } from 'react-icons/fa';
+import { FaBars, FaTimes, FaHome, FaInfoCircle, FaPhone  } from 'react-icons/fa';
 import Link from 'next/link';
+import { BsWatch } from "react-icons/bs";
+
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,8 +19,10 @@ export default function Header() {
         <div className="text-2xl font-bold">
           <Link href="/">
             <li className="flex items-center space-x-2">
-              <FaStore className="text-3xl text-blue-500" />
-              <span>Cruse Store</span>
+            <BsWatch className="text-3xl text-blue-500"/>
+
+             
+              <span>Timeless Treasures</span>
             </li>
           </Link>
         </div>
@@ -40,7 +44,7 @@ export default function Header() {
           </Link>
           <Link href="/Shop">
             <li className="flex items-center space-x-2 hover:text-gray-400 transition-colors duration-300">
-              <FaStore />
+              <BsWatch />
               <span>Shop</span>
             </li>
           </Link>
@@ -79,7 +83,7 @@ export default function Header() {
               onClick={toggleMenu}
               className="flex items-center space-x-2 text-lg hover:text-gray-400 transition-colors duration-300"
             >
-              <FaStore />
+              <BsWatch/>
               <span>Shop</span>
             </li>
           </Link>

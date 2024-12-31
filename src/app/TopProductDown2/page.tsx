@@ -8,10 +8,10 @@ export default function VipSection() {
     <section className="py-20 px-6 md:px-12">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">
-          VIP Benefits Await You
+        "Discover VIP Rewards with Our Premium Watches!"
         </h2>
         <p className="text-lg md:text-xl mb-8">
-          Unlock exclusive perks and enjoy personalized VIP experiences designed just for you.
+        "Enjoy Personalized VIP Benefits and Unlock Perks Designed Specifically for You."
         </p>
       </div>
 
@@ -22,8 +22,8 @@ export default function VipSection() {
             activeCategory === "rewards" ? "scale-105 shadow-2xl border-blue-500" : ""
           }`}
         >
-          <h3 className="text-xl font-semibold mb-4 text-blue-500">Exclusive Rewards</h3>
-          <p className="text-base">Earn points with every purchase for VIP-only rewards.</p>
+          <h3 className="text-xl font-semibold mb-4 text-blue-500">VIP-Only Rewards</h3>
+          <p className="text-base">Get Rewarded with Points on Every Purchase for VIP-Only Privileges.</p>
         </div>
 
         <div
@@ -33,7 +33,7 @@ export default function VipSection() {
           }`}
         >
           <h3 className="text-xl font-semibold mb-4 text-green-500">Early Access</h3>
-          <p className="text-base">Get early access to new collections and limited-edition items.</p>
+          <p className="text-base">Gain Exclusive Early Access to Our Latest Collections and Rare Limited Editions..</p>
         </div>
 
         <div
@@ -43,7 +43,7 @@ export default function VipSection() {
           }`}
         >
           <h3 className="text-xl font-semibold mb-4 text-purple-500">Priority Support</h3>
-          <p className="text-base">Enjoy faster support and VIP customer service.</p>
+          <p className="text-base">Receive Quick Responses and Premium VIP Customer Care..</p>
         </div>
 
         <div
@@ -53,7 +53,7 @@ export default function VipSection() {
           }`}
         >
           <h3 className="text-xl font-semibold mb-4 text-yellow-500">Personalized Service</h3>
-          <p className="text-base">Get personalized recommendations and one-on-one consultations.</p>
+          <p className="text-base">Benefit from Customized Recommendations and Exclusive One-on-One Sessions.</p>
         </div>
       </div>
 

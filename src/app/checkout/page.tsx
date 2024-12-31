@@ -67,7 +67,7 @@ const Checkout = () => {
       {orderPlaced ? (
         <div className="text-center text-green-600">
           <h2 className="text-lg sm:text-xl font-semibold">Order Placed Successfully!</h2>
-          <p className="mt-4">Thank you for your purchase. You will be redirected to the homepage shortly.</p>
+          <p className="mt-4">Thanks for your order! Please hold on while we take you back to the homepage.</p>
         </div>
       ) : (
         <div className="max-w-4xl mx-auto bg-white p-6 sm:p-8 shadow-lg rounded-lg">

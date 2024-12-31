@@ -14,11 +14,9 @@ export default function VipSection() {
     <section className="py-20 px-6 md:px-12">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">
-          Discover Our Premium Watches Collection
-        </h2>
+        Explore the World of Luxury Watches"        </h2>
         <p className="text-lg md:text-xl mb-8">
-          Elevate your style with exclusive VIP access to luxury timepieces and special rewards.
-        </p>
+        Join our VIP program and elevate your look with luxury watches and exclusive perks.        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -34,7 +32,7 @@ export default function VipSection() {
           />
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white p-4">
             <h3 className="text-xl font-semibold">Luxury Timepieces</h3>
-            <p className="text-sm mt-2">Explore watches that blend precision style and exclusivity.</p>
+            <p className="text-sm mt-2">Discover timepieces that combine precision, elegance, and exclusivity.</p>
           </div>
         </motion.div>
 
@@ -49,7 +47,7 @@ export default function VipSection() {
             className="w-full h-64 object-cover"
           />
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white p-4">
-            <h3 className="text-xl font-semibold">Timeless Elegance</h3>
+            <h3 className="text-xl font-semibold">Classic Sophistication</h3>
             <p className="text-sm mt-2">Get early access to our finest collection of premium watches.</p>
           </div>
         </motion.div>
@@ -65,8 +63,8 @@ export default function VipSection() {
             className="w-full h-64 object-cover"
           />
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white p-4">
-            <h3 className="text-xl font-semibold">Precision Engineering</h3>
-            <p className="text-sm mt-2">Discover watches crafted with the highest level of craftsmanship.</p>
+            <h3 className="text-xl font-semibold">Unrivaled Precision</h3>
+            <p className="text-sm mt-2">Uncover watches made with exceptional skill and craftsmanship</p>
           </div>
         </motion.div>
 
@@ -81,18 +79,17 @@ export default function VipSection() {
             className="w-full h-64 object-cover"
           />
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white p-4">
-            <h3 className="text-xl font-semibold">VIP Exclusivity</h3>
-            <p className="text-sm mt-2">Get VIP access to limited-edition watch releases and gifts.</p>
+            <h3 className="text-xl font-semibold">Premium Access</h3>
+            <p className="text-sm mt-2">Become a VIP to access limited-edition watch collections and exclusive rewards.</p>
           </div>
         </motion.div>
       </div>
 
 <div className="bg-gray-100 py-12 mt-20 rounded-lg">
   <div className="text-center mb-6">
-    <h2 className="text-2xl md:text-3xl font-semibold mb-4">Stay Updated with Our Latest Offers</h2>
+    <h2 className="text-2xl md:text-3xl font-semibold mb-4">Stay informed with our fresh offers and exclusive discounts</h2>
     <p className="text-lg mb-8">
-      Subscribe to receive exclusive updates, new arrivals, and VIP offers directly in your inbox.
-    </p>
+    Stay informed with VIP updates, new arrivals, and exclusive offers by subscribing now    </p>
   </div>
 
   <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 w-full max-w-4xl mx-auto">
